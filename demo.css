@@ -1,0 +1,107 @@
+<style>
+body {
+background-image: url('https://i.pinimg.com/736x/e1/3f/84/e13f84c81698e8e31351ca459293f73c.jpg');
+background-size: cover;
+background-position: center;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background: rgba(0, 0, 0, 0.5);
+}
+.profile-info {
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.profile-info img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2px solid white;
+}
+.profile-info span {
+font-size: 20px;
+font-weight: bold;
+}
+nav {
+display: flex;
+gap: 30px;
+}
+nav a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+display: flex;
+align-items: center;
+gap: 8px;
+transition: color 0.3s;
+}
+nav a:hover {
+color: #ccc;
+}
+.hero {
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 20px;
+}
+.hero img {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+border: 3px solid white;
+margin-bottom: 20px;
+}
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.hero p {
+font-size: 1.5em;
+max-width: 600px;
+text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
+.services-section {
+padding: 60px 20px;
+background-color: rgba(0, 0, 0, 0.6);
+text-align: center;
+}
+.services-section h2 {
+font-size: 2.5em;
+margin-bottom: 40px;
+}
+.services-columns {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+}
+.service-box {
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+padding: 20px;
+width: 300px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+transition: transform 0.3s;
+}
+.service-box:hover {
+transform: translateY(-10px);
+}
+.service-box h3 {
+font-size: 1.5em;
+margin-bottom: 10px;
+color: #fff;
+}
+.service-box p {
+font-size: 1em;
+color: #ddd;
+}
+</style>{/* CSS for the demo page */
+/* General Styles */}

@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/4b/0c/8f/4b0c8f1a2d3e5a7e6d9f3a2b5e1c4f4b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  /* Section Styles */
+  .section-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+  }
+  
+  /* Contact Form */
+  .contact-box {
+    max-width: 400px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-box label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .contact-box input,
+  .contact-box textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-box button {
+    margin-top: 15px;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-box button:hover {
+    background: lightgray;
+  }
+  
+  /* Line Separator */
+  hr {
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid white;
+  }
+  #searchInput {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    transition: 0.3s;
+  }
+  
+  #searchInput:focus {
+    outline: none;
+    border-color: #7b2cbf;
+    box-shadow: 0 0 5px #d0b3ff;
+  }
+    
